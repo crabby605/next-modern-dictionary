@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+\# Word Search Application
 
-## Getting Started
+This is a simple dictionary-based web application that allows users to search for the meaning, phonetic pronunciation, and part of speech of any English word. The application fetches data from a free dictionary API and displays results on the page. It also allows users to hear the pronunciation of the word by clicking an audio button.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Search Bar**: Users can enter any English word to look up its meaning and other details.
+- **Phonetic Pronunciation**: Shows the phonetic spelling of the word.
+- **Audio Pronunciation**: Provides an audio button to play the word's pronunciation.
+- **Word Definition**: Displays the definition and part of speech for each word.
+- **Responsive Design**: The application is designed to be mobile-friendly with a simple, clean user interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Frameworks ans APIs Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework used for building the web application.
+- **React**: For building the user interface and handling state.
+- **Tailwind CSS**: For styling the application with utility-first classes.
+- **Dictionary API**: The app uses a free public API (`https://api.dictionaryapi.dev/api/v2/entries/en/{word}`) to fetch word data.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/your-username/word-search-app.git
+   cd word-search-app
+   ```
+2. Install Dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+  ```bash
+     npm install 
+  ```
+3. start the dev server:
+ 
+  ```bash
+  npm run dev
+  ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open `localhost:3000` to view the webpage
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thanks! Any changes or requets are much appreciated
