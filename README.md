@@ -1,4 +1,4 @@
-\# Word Search Application
+# Word Search Application
 
 This is a simple dictionary-based web application that allows users to search for the meaning, phonetic pronunciation, and part of speech of any English word. The application fetches data from a free dictionary API and displays results on the page. It also allows users to hear the pronunciation of the word by clicking an audio button.
 
